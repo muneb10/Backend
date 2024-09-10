@@ -22,7 +22,7 @@ router.post("/login", (req, res, next) => {
 
         if (result) {
           res.status(200).json({
-            message: "Auth Successfull",
+            message: "Auth Successfull!!",
           });
         }
       });
